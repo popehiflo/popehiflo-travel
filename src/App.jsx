@@ -5,6 +5,7 @@ const App = () => (
       <span>span heading</span>
     </div>
     <button className="btn-primary" type="button">Button primary</button>
+    <button className="btn-secondary" type="button">Button secondary</button>
   </section>
 );
 
