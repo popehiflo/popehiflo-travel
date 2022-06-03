@@ -2,7 +2,8 @@
 
 :root {
   --color-primary: #3279BD;
-  --color-secondary: #1B3954;
+  --color-secondary: #0D427D;
+  --color-tertiary:  #A32726;
   --color-text-white: #fff;
   --color-light: #666;
   --color-primary-light: #a0ccf3;
@@ -11,10 +12,10 @@
   --border-radius: 1rem;
   --border-primary: 0.2rem solid var(--color-primary);
   --border-secondary: 0.2rem solid var(--color-secondary);
+  --border-tertiary: 0.2rem solid var(--color-tertiary);
   --border-primary-light: 0.2rem solid var(--color-primary-light);
   --border-primary-white: 0.2rem solid var(--color-text-white);
   --border-radius-btn-primary: 2.3rem;
-  --secondary-border: 0.2rem solid var(--color-secondary);
   --primary-box-shadow: 0.5rem 0.5rem 0 rgba(25, 119, 204, 0.2);
   --secondary-box-shadow: 0.4rem 0.4rem 0 rgba(27, 57, 84, 0.2);
 }
@@ -118,6 +119,51 @@ section {
   color: var(--color-secondary);
   background: var(--color-bg-white);
 }
+
+/* Button tertiary */
+.btn-tertiary {
+  display: inline-block;
+  padding: 0.8rem 2rem;
+  font-size: 1.7rem;
+  font-weight: 900;
+  background: var(--color-tertiary);
+  color: var(--color-text-white);
+  border: var(--border-tertiary);
+  border-radius: var(--border-radius-btn-primary);
+  cursor: pointer;
+  width: max-content;
+}
+
+.btn-tertiary:hover {
+  color: var(--color-tertiary);
+  background: var(--color-bg-white);
+}
+
+.btn-tertiary:active {
+  color: var(--color-primary);
+  background: var(--color-bg-white);
+}
+
+/* Button primary icon */
+.btn-icon-primary {
+  height: 4.5rem;
+  width: 4.5rem;
+  font-size: 2rem;
+  color: var(--color-text-white);
+  background: var(--color-primary);
+  border-radius: 50%;
+  border: var(--border-primary);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* margin-bottom: 0.3rem; */
+}
+
+.btn-icon-primary:hover {
+  color: var(--color-primary);
+  background: var(--color-text-white);
+}
+
 
 
 
